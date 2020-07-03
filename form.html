@@ -2,19 +2,49 @@
 <html>
     <head>
         <title>My webpage! </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <style>
           div {
-            <img src="cat.jpg";
+
             padding: 100px
           }
+
+          button {
+             background-color: green;
+             font-size: 24px;
+             height: 50px;
+
+          }
+          button:hover{
+              background-color: blue
+
+          }
+
+          #foo {text-align:"50%";
+                padding: 60px
+              }
+
         </style>
     </head>
+
+
     <body>
       <div>
       <form>
           <input type="text" placeholder="Full name" name="name">
           <button>Submit!</button>
       </form>
+    </div>
+    <div id="foo">
+        <span class="badge badge-primary">Primary</span>
+        <br>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-danger">Danger</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-light">Light</span>
+        <span class="badge badge-dark">Dark</span>
     </div>
     </body>
 
